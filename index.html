@@ -5,81 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexeev homework</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="./img/logo.png" alt="Logo">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">HOME</a>
+    <section class="header">
+        <div class="container">
+            <div class="header__nav">
+                <ul class="header__ul">
+                    <li class="header__li">
+                        <a href="!" class="header__link">HOME</a>
                     </li>
-                    <li>
-                        <a href="">DESIGN</a>
+                    <li class="header__li">
+                        <a href="!" class="header__link">PHOTO</a>
                     </li>
-                    <li>
-                        <a href="">APP</a>
+                    <li class="header__li">
+                        <a href="!" class="header__link">STOCK</a>
                     </li>
-                    <li>
-                        <a href="">YOUTUBE</a>
+                    <li class="header__li">
+                        <a href="!" class="header__link">SAVE</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
+            <div class="container">
+                <section class="preview">
+                    <div class="preview__main">
+                        <h1 class="preview__title">SAVE MOMENTS</h1>
+                        <button class="preview__button">BUY NOW</button>
+                    </div>
+                </section>
+            </div>
+            <section class="background">
+                <p class="preview__text">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </section>
         </div>
-    </header>
-    <main>
-        <div>
-            <img src="./img/main.png" alt="Img">
-            <div>
-                <form action="">
-                    <input type="text" placeholder="Name">
-            </div>
-            <div>
-                <input type="text" placeholder="Surname">
-            </div>
-            <div>
-                <input type="email" placeholder="Email">
-            </div>
-            <div>
-                <label>
-                    <input name="radio" type="radio">
-                    Сhoose 1
-                </label>
-            </div>
-            <div>
-                <label>
-                    <input name="radio" type="radio">
-                    Сhoose 2
-                </label>
-            </div>
-            <div>
-                <label>
-                    <input type="checkbox" required>
-                    I agree
-                </label>
-            </div>
-            <div>
-                <select>
-                    <option value="380">380</option>
-                    <option value="800">800</option>
-                    <option value="073">073</option>
-                </select>
-            </div>
-            <div>
-                <button>
-                    Pre-order
-                </button>
-            </div>
-            </form>
-            <div>
-                <video src="./video/Nature Beautiful short video 720p HD.mp4" autoplay loop muted controls
-                    poster="./img/poster.png"></video>
-            </div>
-        </div>
-    </main>
+    </section>
 </body>
 
 </html>
